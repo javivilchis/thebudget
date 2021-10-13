@@ -1,0 +1,20 @@
+{
+  "name": "The Budget PWA",
+  "short_name": "The Budget PWA",
+  "start_url": "/",
+  "background_color": "#cadbda",
+  "theme_color": "#cadbda",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x169",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ] 
+}
