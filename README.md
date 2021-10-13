@@ -1,70 +1,35 @@
-# Unit 19 PWA Homework: Online/Offline Budget Trackers
+# The Budget
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+<br>
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+![badge](https://img.shields.io/badge/license-Apache,Open-brightgreen)<br />
 
-Offline Functionality:
+## Description 
 
-  * Enter deposits offline
+*The objective of this project:* 
 
-  * Enter expenses offline
+The budget is an application to help me track my expenses when I am out traveling. It is nice to have for any ocassion. This keeps me from spending more than I have to with the hopes I come back feeling good about myself and not worring about how much I spent.<br>## Table of contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#testing)
+* [Questions](#questions)
+## Installation
+Download a copy of this repository and once you have it downloaded, you have to run the script ```npm run install``` then, run the following code ```npm run start```.
+## Usage 
+  
+*Instructions and examples for use:*
+The beauty of this app is, the portability. What I mean about portability? This is develop as a downloadable application that can be used even when you are not connected to the internet. So, it works anywhere!
+undefined
+## contributing
+  
+*If you would like to contribute it, you can follow these guidelines for how to do so.*
+Please download or fork the repository and submit it for my approval.
+## Testing
+*Please follow these directions to test the app.
+there are no tests in this build.
+## Questions
 
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
-- - -
-
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+*If you have a concern or input abou the project, you can contact:*
+<br>
+Please contact Javier Vilchis via [Email](Javivilchis@gmail.com)
